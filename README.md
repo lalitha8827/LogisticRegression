@@ -3,5 +3,7 @@ I decided to treat this as a classification problem by creating a new binary var
 
 occupation: woman's occupation (1 = student, 2 = farming/semi- skilled/unskilled, 3 = "white collar", 4 =
 
-teacher/nurse/writer/technician/skilled, 5 = managerial/business, 6 = professional with advanced degree) occupation_husb: husband's occupation (same coding as above) affairs: time spent in extra-marital affairs Code to loading data and modules:
+teacher/nurse/writer/technician/skilled, 5 = managerial/business, 6 = professional with advanced degree) occupation_husb: husband's occupation (same coding as above) affairs: time spent in extra-marital affairs
+
+
 heroku link:https://murmuring-sierra-23065.herokuapp.com/
