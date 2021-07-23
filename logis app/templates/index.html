@@ -1,0 +1,40 @@
+<html>
+    <head>
+    	<link rel="stylesheet" href="static/index.css">
+	</head>
+	<body>
+		<h1><bold>Predict the woman having affair or not</bold></h1>
+		<div class="form">
+        <form action="/predict" method="POST">
+		<div class="occ">
+			<h3>Women occupation(Enter 0 or 1)</h3>
+			<input type="number" name="occ2" placeholder="farming/semi- skilled/unskilled">
+			<input type="number" name="occ3" placeholder="white collar">
+			<input type="number" name="occ4" placeholder="teacher/nurse/writer/technician/skilled">
+			<input type="number" name="occ5" placeholder="managerial/business">
+			<input type="number" name="occ6" placeholder="professional with advanced degree">
+		</div>
+		<div class="occ">
+			<h3>Husband occupation(Enter 0 or 1)</h3>
+			<input type="number" name="oc2" placeholder="farming/semi- skilled/unskilled">
+			<input type="number" name="oc3" placeholder="white collar">
+			<input type="number" name="oc4" placeholder="teacher/nurse/writer/technician/skilled">
+			<input type="number" name="oc5" placeholder="managerial/business">
+			<input type="number" name="oc6" placeholder="professional with advanced degree">
+		</div>
+		<div class="oc">
+			<input type="number" name="mrg_rating" placeholder="Marriage Rating(1-5)">
+			<input type="number" name="age" placeholder="Age">
+			<input type="number" name="yrs_married" placeholder="Years_Married">
+		</div>
+		<div class="oc">
+			<input type="number" name="children" placeholder="Number of children">
+			<input type="number" name="religious" placeholder="Religious(1=not religious,4=strongly religious)">
+			<input type="number" name="educ" placeholder="Education Standard">
+		</div>
+			<div><input class="oc" type="submit" value="Predict"></div>
+
+		</form>
+		</div>
+	</body>
+</html>
